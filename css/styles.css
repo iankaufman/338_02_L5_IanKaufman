@@ -1,0 +1,41 @@
+/* CSS DOCUMENT */
+
+nav {
+    
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background: #000000;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+   
+    
+    border: 1px solid transparent;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+     padding: 15px;
+}
+
+a:hover {
+    background-color: slategray;
+    padding: 15px;
+    transition: 1s;
+      
+}
